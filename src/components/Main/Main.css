@@ -1,0 +1,11 @@
+.main {
+  padding: 50px 5%;
+  background-color: #303030;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  justify-content: center;
+  gap: 100px;
+  min-height: calc(100vh - 100px);
+}
